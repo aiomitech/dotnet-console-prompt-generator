@@ -1,0 +1,26 @@
+# Changelog
+
+## [1.0.0] - 2026-01-31
+
+### Added
+- Initial release of .NET Console Prompt Generator
+- Multi-stage prompt optimization pipeline (Analysis → Enrichment → Optimization)
+- OpenAI API integration using Microsoft.Extensions.AI
+- Problem analysis system with domain and complexity detection
+- Context enrichment with best practices and pitfall identification
+- Production-ready prompt generation
+- User Secrets integration for secure credential management
+- Comprehensive README with setup instructions
+- Example usage documentation
+
+### Technical Details
+- Built with .NET 8.0
+- Uses Microsoft.Extensions.AI for OpenAI provider abstraction
+- Implements three-stage prompt generation pipeline
+- Console-based user interface
+
+### Known Limitations
+- Single prompt generation per session
+- Manual copy-paste of generated prompt
+- No persistent prompt history
+- No multi-provider support yet
