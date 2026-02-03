@@ -1,6 +1,5 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc.Testing;
-using PromptGeneratorWebApi.Services;
 
 namespace PromptGeneratorWebApi.Tests;
 
